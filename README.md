@@ -6,7 +6,6 @@ Japanese Women is a responsive web project created as part of my software engine
 
 - HTML
 - CSS
-- JavaScript
 
 ## Features
 
