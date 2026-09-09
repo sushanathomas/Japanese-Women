@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    clear: both; 
+}
+
+
+Clear fix hack .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+header{ 
+    height: auto; 
+    clear: both;  
+    height: auto; 
+}
+header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+header nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #444;
+}
+
+header button {
+    background-color: #3f4650;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+}
+
+/******************************************
+/* Section 2
+/*******************************************/
+
+.japanOne{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px; 
+    height: auto; 
+    background: rgb(239, 241,243); 
+    clear: both; 
+}
+
+.japTwo p{
+    line-height: 1.4;
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+.japTwo .pGraph{
+    font-size: 10px; 
+    margin: 5px 0; 
+}
+
+.japTwo form{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.japTwo input {
+    width: 320px;
+    padding: 12px;
+    border: 1px solid #9b9a9a;
+    border-radius: 5px;
+    
+}
+.japTwo button {
+    width: 150px;
+    padding: 12px;
+    border: 1px solid #999;
+    background: #b7c3cc;
+    color: white;
+    font-family: 14px;
+    border-radius: 5px;
+}
+/******************************************
+/* Section 3
+/*******************************************/
+
+.oneSec{
+    height: auto;  
+    padding: 20px; 
+    clear: both; 
+}
+.oneOfone h2{
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0; 
+}
+.oneOfTwo{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.oneOfTwo p{
+    flex: 1; ;
+}
+.oneOfTwo span{
+    font-weight: bold;
+    border-top: 5px solid rgb(246, 217, 237);
+}
+.oneOftres{
+    display: flex; 
+    font-size: 12px;
+    color: #b7c3cc;
+    margin: 40px; 
+    font-style: italic;
+}
+
+/******************************************
+/* Section 4
+/*******************************************/
+
+.twoSec{
+    padding: 10px; 
+    display: flex; 
+     height: auto; 
+    background: rgb(239, 241, 243);
+    gap: 30px; 
+    clear: both; 
+}
+.twoSec h2{
+    font-weight: 600;
+}
+.twoTwos p{
+    margin-top: 5px;
+    line-height: 1.5;
+}
+.twoTrees{
+     height: auto; 
+    margin-top: 20px; 
+}
+/******************************************
+/* Section 5
+/*******************************************/
+
+.treeSec{
+    margin-top: 50px ;
+    clear: both; 
+    height: auto; 
+}
+.treeSec h2{
+    padding: 5px; 
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.sec3{ 
+    display: flex; 
+    align-items: flex-start;
+    gap: 40px; 
+    height: auto;
+    margin: 0 20px;
+     border: 1px solid #ddd;
+}
+.sec4 h3{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.sec p{
+    font-size: 10px;
+    font-weight: lighter;
+}
+.sec3 img {
+    padding: 10px 15px;
+}
+
+/******************************************
+/* Section 6
+/*******************************************/
+
+.fourSec{ 
+    display: flex; 
+    margin: 30px 0; 
+    height: auto; 
+    gap: 40px; 
+    padding: 20px; 
+}
+.fourSec h2{
+    color: rgb(134, 137, 139); 
+    font-weight: lighter;
+}
+.fourSec p{
+    line-height: 25px;
+}
+
+/******************************************
+/* Footer
+/*******************************************/
+footer{
+    height: auto; 
+}
+.footerOne{
+    text-align: center;
+    padding: 35px 0;
+    display: flex; 
+    padding: 20px; 
+    background: rgb(179, 189, 201);
+    color: white;  
+}
+
+.footerOne h3{
+    font-weight: 400;
+    width: 40%; 
+    display: flex; 
+    align-items: center; 
+}
+.footerOne form{
+    justify-content: right;
+    display: flex;
+    gap: 20px;
+    width: 60%;  
+}
+.footerOne input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid gray; 
+}
+.footerOne button {
+    padding: 10px 30px;
+    border: none;
+    background-color: #667783;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.bottom{
+    background: rgb(135, 145, 152);
+    color: white;
+    padding: 20px 5%;
+    text-align: center;
+}
+.bottomOne{
+    border-bottom: 1px solid white; 
+    display: flex; 
+    padding-bottom: 20px 
+}
+.bottomOne ul{ 
+    display: flex;  
+    width: 50%; 
+    list-style: none;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.bottomOne p{
+    display: flex;
+    width: 50%; 
+    font-size: 12px;
+    font-weight: 500; 
+    justify-content: flex-start;
+}
+.bottomUp{
+    display: flex; 
+}
+.bottomUp ul{
+    list-style: none;
+    font-size: 12px;
+}
+#oneFirst{ 
+    width: 18%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+#twoFirst{
+    width: 20%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+#threeFirst{
+    width: 18%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+#fourFirst{
+    width: 45%; 
+    display: flex; 
+    justify-content: space-between;
+}
+.firstOnes{
+    font-weight: bold;
+}
+
+
+/******************************************
+/* MEDIA Queries
+/*******************************************/
+
+@media screen and (max-width: 1024px) {
+    main{
+        font-size: 10px;
+    }
+   header, .oneSec, .twoSec, .treeSec, .fourSec, .footerOne{
+        background: pink;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+   header {
+        height: auto;
+    }
+
+    header ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    header {
+        height: auto;
+    }
+
+    header ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    header, .oneSec, .twoSec, .treeSec, .fourSec, .footerOne{
+        background: rgb(183, 94, 183);
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        height: auto;
+        padding: 15px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    header button {
+        padding: 8px 20px;
+    }
+    header, .oneSec, .twoSec, .treeSec, .fourSec, .footerOne{
+        background: rgb(111, 190, 205);
+}
