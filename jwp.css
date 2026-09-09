@@ -165,7 +165,6 @@ header button {
 /*******************************************/
 
 .treeSec{
-    margin-top: 50px ;
     clear: both; 
     height: auto; 
 }
@@ -181,7 +180,7 @@ header button {
     gap: 40px; 
     height: auto;
     margin: 0 20px;
-     border: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
 .sec4 h3{
     margin-bottom: 10px;
@@ -201,7 +200,6 @@ header button {
 
 .fourSec{ 
     display: flex; 
-    margin: 30px 0; 
     height: auto; 
     gap: 40px; 
     padding: 20px; 
@@ -246,18 +244,17 @@ footer{
     padding: 10px;
     border: none;
     border-radius: 10px;
-    border: 1px solid gray; 
 }
 .footerOne button {
     padding: 10px 30px;
     border: none;
-    background-color: #667783;
+    background: #667783;
     color: white;
     border-radius: 10px;
     text-align: center;
 }
 .bottom{
-    background: rgb(135, 145, 152);
+    background: rgb(126, 134, 141);
     color: white;
     padding: 20px 5%;
     text-align: center;
@@ -323,39 +320,99 @@ footer{
 /*******************************************/
 
 @media screen and (max-width: 1024px) {
-    main{
-        font-size: 10px;
-    }
-   header, .oneSec, .twoSec, .treeSec, .fourSec, .footerOne{
+    /* Laptop screen size */
+    
+     header,
+    main,
+    .japanOne,
+    .oneSec,
+    .twoSec,
+    .treeSec,
+    .fourSec {
         background: pink;
+    }
+    .japanOne {
+        flex-direction: column;
+        gap: 30px;
+    }
+     p,
+    a,
+    li,
+    button,
+    input,
+    span {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+    header,
+    nav,
+    ul {
+        background: rgb(126, 134, 141);
+    }
+    .footerOne,
+    .footerOne h3,
+    .footerOne input,
+    .footerOne button,
+    .bottom,
+    .bottomOne,
+    .bottomOne p,
+    .bottomOne li,
+    .bottomUp,
+    .bottomUp li {
+        color: black;
     }
 }
 
 @media screen and (max-width: 768px) {
-
-   header {
-        height: auto;
-    }
-
-    header ul {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-    header {
-        height: auto;
-    }
-
-    header ul {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-    header, .oneSec, .twoSec, .treeSec, .fourSec, .footerOne{
+    /* Tablet screen size */
+    
+   header,
+    main,
+    .japanOne,
+    .oneSec,
+    .twoSec,
+    .treeSec,
+    .fourSec {
         background: rgb(183, 94, 183);
     }
-
+    header ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .japanOne {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .japThree img {
+        max-width: 100%;
+        height: auto;
+    }
+    header,
+    nav,
+    ul {
+        background: rgb(126, 134, 141);
+    }
 }
 
 @media screen and (max-width: 600px) {
+    /* Phone screen size */
+
+    header,
+    main,
+    .japanOne,
+    .oneSec,
+    .twoSec,
+    .treeSec,
+    .fourSec {
+        background: rgb(111, 190, 205);
+    }
 
     header {
         height: auto;
@@ -375,6 +432,25 @@ footer{
     header button {
         padding: 8px 20px;
     }
-    header, .oneSec, .twoSec, .treeSec, .fourSec, .footerOne{
-        background: rgb(111, 190, 205);
+
+    .japanOne {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .japTwo form {
+        flex-direction: column;
+    }
+
+    .japTwo input,
+    .japTwo button {
+        width: 100%;
+    }
+
+    .japThree img {
+        width: 100%;
+        height: auto;
+    }
+
 }
