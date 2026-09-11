@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    clear: both; 
 }
 
 
@@ -314,28 +313,165 @@ footer{
     font-weight: bold;
 }
 
+/* =========================================================
+   MEDIA QUERIES
+   ========================================================= */
 
-/******************************************
-/* MEDIA Queries
-/*******************************************/
+
+/* =========================================================
+    SMALL LAPTOP - 1024PX
+   ========================================================= */
 
 @media screen and (max-width: 1024px) {
-    /* Laptop screen size */
-    
-     header,
-    main,
-    .japanOne,
-    .oneSec,
-    .twoSec,
-    .treeSec,
-    .fourSec {
-        background: pink;
+
+    /* ---------------- COLORS ---------------- */
+
+    header {
+        background: #d9c2cf;
     }
+
     .japanOne {
-        flex-direction: column;
+        background: #f4dfe9;
+    }
+
+    .oneSec {
+        background: #fff7fa;
+    }
+
+    .twoSec {
+        background: #ead8e3;
+    }
+
+    .treeSec {
+        background: #fffafa;
+    }
+
+    .fourSec {
+        background: #f2e5eb;
+    }
+
+
+    /* ---------------- NAV ---------------- */
+
+    header {
+        padding: 15px 25px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 15px 25px;
+        background: transparent;
+    }
+
+    header a {
+        color: #333;
+    }
+
+
+    /* ---------------- HERO ---------------- */
+
+    .japanOne {
+        padding: 40px 30px;
         gap: 30px;
     }
-     p,
+
+    .japLogo img {
+        max-width: 180px;
+        height: auto;
+    }
+
+    .japThree img {
+        max-width: 320px;
+        height: auto;
+    }
+
+    .japTwo {
+        flex: 1;
+    }
+
+
+    /* ---------------- JWLI MISSION ---------------- */
+
+    .oneSec {
+        padding: 35px;
+    }
+
+    .oneOfTwo {
+        gap: 30px;
+    }
+
+
+    /* ---------------- HISTORY ---------------- */
+
+    .twoSec {
+        gap: 25px;
+        padding: 30px;
+    }
+
+    .twoTwos {
+        flex: 1.5;
+    }
+
+    .twoTrees {
+        flex: 1;
+    }
+
+    .twoPics img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* ---------------- WHO WE ARE ---------------- */
+
+    .sec3 {
+        margin: 0 30px;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .sec3 img {
+        max-width: 250px;
+        height: auto;
+    }
+
+
+    /* ---------------- PARTNERS ---------------- */
+
+    .fourSec {
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .fourSec section {
+        flex: 1;
+    }
+
+    .fourSec img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* ---------------- FOOTER ---------------- */
+
+    .footerOne {
+        background: #b79aaa;
+    }
+
+    .bottom {
+        background: #75636d;
+    }
+
+
+    /* ---------------- FONT ---------------- */
+
+    p,
     a,
     li,
     button,
@@ -351,96 +487,237 @@ footer{
     h3 {
         font-size: 18px;
     }
-    header,
-    nav,
-    ul {
-        background: rgb(126, 134, 141);
-    }
-    .footerOne,
-    .footerOne h3,
-    .footerOne input,
-    .footerOne button,
-    .bottom,
-    .bottomOne,
-    .bottomOne p,
-    .bottomOne li,
-    .bottomUp,
-    .bottomUp li {
-        color: black;
-    }
 }
+
+
+
+/* =========================================================
+    TABLET - 768PX 
+   ========================================================= */
 
 @media screen and (max-width: 768px) {
-    /* Tablet screen size */
-    
-   header,
-    main,
-    .japanOne,
-    .oneSec,
-    .twoSec,
-    .treeSec,
-    .fourSec {
-        background: rgb(183, 94, 183);
-    }
-    header ul {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-    .japanOne {
-        flex-direction: column;
-        gap: 25px;
-    }
-    .japThree img {
-        max-width: 100%;
-        height: auto;
-    }
-    header,
-    nav,
-    ul {
-        background: rgb(126, 134, 141);
-    }
-}
 
-@media screen and (max-width: 600px) {
-    /* Phone screen size */
-
-    header,
-    main,
-    .japanOne,
-    .oneSec,
-    .twoSec,
-    .treeSec,
-    .fourSec {
-        background: rgb(111, 190, 205);
-    }
+    /* ---------------- COLORS ---------------- */
 
     header {
-        height: auto;
-        padding: 15px;
+        background: #a67591;
     }
 
-    header nav {
-        width: 100%;
+    .japanOne {
+        background: #e8c4d6;
     }
+
+    .oneSec {
+        background: #f7e9f0;
+    }
+
+    .twoSec {
+        background: #d9b3c7;
+    }
+
+    .treeSec {
+        background: #fbeef4;
+    }
+
+    .fourSec {
+        background: #ead5df;
+    }
+
+
+    /* ---------------- NAV ---------------- */
 
     header ul {
         flex-direction: column;
         align-items: flex-start;
-        gap: 12px;
+        gap: 10px;
+    }
+
+    header a {
+        color: white;
     }
 
     header button {
-        padding: 8px 20px;
+        background: #57414d;
     }
+
+
+    /* ---------------- HERO ---------------- */
 
     .japanOne {
         flex-direction: column;
-        padding: 20px;
+        align-items: center;
+        text-align: center;
+        padding: 35px 25px;
+    }
+
+    .japLogo img {
+        max-width: 180px;
+    }
+
+    .japTwo {
+        width: 100%;
+    }
+
+    .japTwo p {
+        max-width: 100%;
+    }
+
+    .japTwo form {
+        justify-content: center;
+    }
+
+    .japThree img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* ---------------- MISSION ---------------- */
+
+    .oneOfTwo {
+        flex-direction: column;
         gap: 20px;
+    }
+
+    .oneOftres {
+        margin: 30px 10px;
+    }
+
+
+    /* ---------------- HISTORY ---------------- */
+
+    .twoSec {
+        flex-direction: column;
+        padding: 30px 25px;
+    }
+
+    .twoTrees {
+        display: flex;
+        gap: 20px;
+    }
+
+    .twoPics {
+        flex: 1;
+    }
+
+    .twoPics img {
+        width: 100%;
+    }
+
+
+    /* ---------------- WHO WE ARE ---------------- */
+
+    .sec3 {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 25px;
+    }
+
+    .sec3 img {
+        max-width: 280px;
+    }
+
+    .sec4 {
+        padding: 0 15px 20px;
+    }
+
+
+    /* ---------------- PARTNERS ---------------- */
+
+    .fourSec {
+        flex-direction: column;
+        padding: 30px 25px;
+    }
+
+
+    /* ---------------- NEWSLETTER ---------------- */
+
+    .footerOne {
+        flex-direction: column;
+        gap: 20px;
+        background: #967a8a;
+    }
+
+    .footerOne h3 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footerOne form {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    /* ---------------- LOWER FOOTER ---------------- */
+
+    .bottom {
+        background: #67535f;
+    }
+
+    .bottomOne {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .bottomOne p,
+    .bottomOne ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bottomUp {
+        flex-wrap: wrap;
+        gap: 25px;
+        padding-top: 25px;
+    }
+
+    #oneFirst,
+    #twoFirst,
+    #threeFirst,
+    #fourFirst {
+        width: calc(50% - 15px);
+    }
+
+    #fourFirst {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+/* =========================================================
+    MOBILE - 600PX
+   ========================================================= */
+
+@media screen and (max-width: 600px) {
+
+    /* ---------------- NAV ---------------- */
+
+    header nav {
+        display: none;
+    }
+
+    /* ---------------- HERO ---------------- */
+
+    .japanOne {
+        padding: 30px 20px;
+        gap: 25px;
+    }
+
+    .japLogo img {
+        width: 150px;
+        max-width: 100%;
+    }
+
+    .japTwo {
+        text-align: left;
     }
 
     .japTwo form {
         flex-direction: column;
+        gap: 10px;
     }
 
     .japTwo input,
@@ -448,9 +725,166 @@ footer{
         width: 100%;
     }
 
+    .japThree {
+        width: 100%;
+    }
+
     .japThree img {
         width: 100%;
         height: auto;
     }
 
+    /* ---------------- MISSION ---------------- */
+
+    .oneSec {
+        padding: 30px 20px;
+    }
+
+    .oneOfone h2 {
+        text-align: left;
+        font-size: 22px;
+    }
+
+    .oneOfTwo {
+        flex-direction: column;
+    }
+
+    .oneOftres {
+        margin: 25px 0;
+    }
+
+    /* ---------------- HISTORY ---------------- */
+
+    .twoSec {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .twoTwos p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .twoTrees {
+        flex-direction: column;
+    }
+
+    .twoPics {
+        width: 100%;
+    }
+
+    .twoPics img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ---------------- WHO WE ARE ---------------- */
+
+    .treeSec {
+        padding: 30px 20px;
+    }
+
+    .treeSec h2 {
+        font-size: 24px;
+    }
+
+    .sec3 {
+        margin: 0;
+        padding: 15px;
+    }
+
+    .sec3 img {
+        width: 100%;
+        max-width: 260px;
+    }
+
+    .sec4 {
+        padding: 10px 0;
+    }
+
+    .sec4 h3 {
+        font-size: 18px;
+    }
+
+    /* ---------------- PARTNERS ---------------- */
+
+    .fourSec {
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .fourSec h2 {
+        font-size: 22px;
+    }
+
+    .fourSec p {
+        line-height: 1.7;
+    }
+
+    .fourSec img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ---------------- NEWSLETTER ---------------- */
+
+    .footerOne {
+        padding: 25px 20px;
+    }
+
+    .footerOne h3 {
+        text-align: center;
+    }
+
+    .footerOne form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footerOne input,
+    .footerOne button {
+        width: 100%;
+    }
+
+    /* ---------------- LOWER FOOTER ---------------- */
+
+    .bottom {
+        padding: 25px 20px;
+    }
+
+    .bottomOne {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bottomOne p {
+        width: 100%;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .bottomOne ul {
+        width: 100%;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: left;
+        gap: 8px;
+    }
+
+    .bottomUp {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #oneFirst,
+    #twoFirst,
+    #threeFirst,
+    #fourFirst {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    #fourFirst {
+        flex-direction: column;
+    }
 }
