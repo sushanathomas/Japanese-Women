@@ -1,6 +1,9 @@
 # Japanese Women
 
 Japanese Women is a responsive web project created as part of my software engineering coursework.
+## Project Preview
+
+<img width="1908" height="764" alt="Screenshot 2026-10-05 at 2 14 57 AM" src="https://github.com/user-attachments/assets/ce7126f1-b223-4dab-ac6f-7485cd0639ae" />
 
 ## Technologies Used
 
