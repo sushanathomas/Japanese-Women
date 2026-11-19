@@ -2,7 +2,7 @@
 
 Japanese Women is a responsive web project I created for my software engineering coursework.
 
-## Project Preview & Site Link
+## Site Link & Project Preview 
 
 Render: https://japanese-women.onrender.com
 
