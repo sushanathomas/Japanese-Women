@@ -1,6 +1,6 @@
 # Japanese Women
 
-Japanese Women is a responsive web project created as part of my software engineering coursework.
+Japanese Women is a responsive web project I created for my software engineering coursework.
 
 ## Project Preview & Site Link
 
