@@ -4,7 +4,7 @@ Japanese Women is a responsive web project I created for my software engineering
 
 ## Site Link & Project Preview 
 
-Render: https://japanese-women.onrender.com
+GitHub: https://sushanathomas.github.io/Japanese-Women/
 
 <img width="1908" height="764" alt="Screenshot 2026-10-05 at 2 14 57 AM" src="https://github.com/user-attachments/assets/ce7126f1-b223-4dab-ac6f-7485cd0639ae" />
 
