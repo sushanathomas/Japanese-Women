@@ -1,6 +1,6 @@
 # Japanese Women
 
-Japanese Women is a responsive web project I created for my software engineering coursework.
+Japanese Women is a coursework website about the Japanese Women’s Leadership Initiative (JWLI), a Boston-based program supporting women leaders and social change in Japan. The page brings together the program’s mission, history, founder biography, and partner organizations.
 
 ## Site Link & Project Preview 
 
@@ -15,18 +15,13 @@ GitHub: https://sushanathomas.github.io/Japanese-Women/
 
 ## Features
 
-- Responsive design
-- Navigation
-- Interactive webpage elements
-- Mobile-friendly layout
-
-## Live Website
-
-Coming soon!
+- Program mission and leadership training information
+- History, founder biography, and partner organization sections
+- Email signup forms and navigation to program resources
 
 ## What I Learned
 
-While building this project, I practiced structuring webpages with HTML, styling layouts with CSS, and using JavaScript to add functionality and interaction.
+While building this project, I practiced organizing a long page with HTML sections, styling text and images with CSS, and laying out program information, biographies, and signup forms.
 
 ## Author
 
